@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Rock Paper Scissors</h1>
+        
+        <div class="scoreboard">
+            <div class="score-item">
+                <span class="label">You</span>
+                <span class="score" id="userScore">0</span>
+            </div>
+            <div class="score-item">
+                <span class="label">Ties</span>
+                <span class="score" id="ties">0</span>
+            </div>
+            <div class="score-item">
+                <span class="label">Computer</span>
+                <span class="score" id="computerScore">0</span>
+            </div>
+        </div>
+
+        <div class="choices">
+            <button class="choice-btn" data-choice="rock">
+                <span class="emoji">✊</span>
+                <span class="label">Rock</span>
+            </button>
+            <button class="choice-btn" data-choice="paper">
+                <span class="emoji">✋</span>
+                <span class="label">Paper</span>
+            </button>
+            <button class="choice-btn" data-choice="scissors">
+                <span class="emoji">✌️</span>
+                <span class="label">Scissors</span>
+            </button>
+        </div>
+
+        <div class="result-container">
+            <div class="battle" id="battle">
+                <div class="player-choice">
+                    <div class="choice-display" id="userChoiceDisplay">?</div>
+                    <p>Your Choice</p>
+                </div>
+                <div class="vs">VS</div>
+                <div class="computer-choice">
+                    <div class="choice-display" id="computerChoiceDisplay">?</div>
+                    <p>Computer's Choice</p>
+                </div>
+            </div>
+            
+            <div class="result-message" id="resultMessage">
+                Make your choice!
+            </div>
+        </div>
+
+        <button class="reset-btn" id="resetBtn">Reset Scores</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
