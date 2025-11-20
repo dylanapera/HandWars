@@ -1,4 +1,4 @@
-# HandWars
+# HandWars | [LIVE NOW](https://calm-glacier-06a637000.3.azurestaticapps.net/) 
 Rock, Paper, Scissors, Shoot! 
 
 ## Overview
